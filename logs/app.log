@@ -1,0 +1,1072 @@
+2026-04-20T15:15:12.307932+0800 | INFO | N/A | Redis connected
+2026-04-20T15:15:12.454378+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:16:52.898629+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | 开始分析: 小米手环9
+2026-04-20T15:16:52.948312+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:18:27.902966+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | 开始分析: 小米手环9
+2026-04-20T15:18:27.942833+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:19:47.579168+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | [LangGraph] 分析节点
+2026-04-20T15:19:53.096248+0800 | ERROR | 135639aa-0bb6-4452-8881-0aaebb61565b | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:19:53.098272+0800 | WARNING | 135639aa-0bb6-4452-8881-0aaebb61565b | 质量不达标，重试 (1/2)
+2026-04-20T15:19:53.102686+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | [LangGraph] 分析节点
+2026-04-20T15:19:56.581535+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | [LangGraph] 分析节点
+2026-04-20T15:20:06.598333+0800 | ERROR | 135639aa-0bb6-4452-8881-0aaebb61565b | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:20:06.598333+0800 | WARNING | 135639aa-0bb6-4452-8881-0aaebb61565b | 质量不达标，重试 (2/2)
+2026-04-20T15:20:06.604996+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | [LangGraph] 分析节点
+2026-04-20T15:20:07.157426+0800 | ERROR | 71061a48-bee0-4f15-a1d6-e74003aede09 | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:20:07.160016+0800 | WARNING | 71061a48-bee0-4f15-a1d6-e74003aede09 | 质量不达标，重试 (1/2)
+2026-04-20T15:20:07.164061+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | [LangGraph] 分析节点
+2026-04-20T15:20:14.335450+0800 | ERROR | 71061a48-bee0-4f15-a1d6-e74003aede09 | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:20:14.335450+0800 | WARNING | 71061a48-bee0-4f15-a1d6-e74003aede09 | 质量不达标，重试 (2/2)
+2026-04-20T15:20:14.341046+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | [LangGraph] 分析节点
+2026-04-20T15:20:14.483279+0800 | ERROR | 135639aa-0bb6-4452-8881-0aaebb61565b | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:20:14.483279+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | 最终节点，报告生成完成
+2026-04-20T15:20:14.489845+0800 | INFO | 135639aa-0bb6-4452-8881-0aaebb61565b | 分析完成
+2026-04-20T15:20:27.103002+0800 | ERROR | 71061a48-bee0-4f15-a1d6-e74003aede09 | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:20:27.103002+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | 最终节点，报告生成完成
+2026-04-20T15:20:27.111965+0800 | INFO | 71061a48-bee0-4f15-a1d6-e74003aede09 | 分析完成
+2026-04-20T15:24:40.134148+0800 | INFO | N/A | Redis connected
+2026-04-20T15:24:40.246009+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:25:46.602061+0800 | INFO | N/A | Redis connected
+2026-04-20T15:25:46.711443+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:26:33.058923+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | 开始分析: 小米手环9
+2026-04-20T15:26:33.094954+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:31:05.264855+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | [LangGraph] 分析节点
+2026-04-20T15:31:42.418036+0800 | ERROR | 6d848b38-c02c-4a59-983d-d25664b46f5e | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:31:42.420055+0800 | WARNING | 6d848b38-c02c-4a59-983d-d25664b46f5e | 质量不达标，重试 (1/2)
+2026-04-20T15:31:42.422719+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | [LangGraph] 分析节点
+2026-04-20T15:32:00.558605+0800 | ERROR | 6d848b38-c02c-4a59-983d-d25664b46f5e | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:32:00.558605+0800 | WARNING | 6d848b38-c02c-4a59-983d-d25664b46f5e | 质量不达标，重试 (2/2)
+2026-04-20T15:32:00.558605+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | [LangGraph] 分析节点
+2026-04-20T15:32:08.741497+0800 | ERROR | 6d848b38-c02c-4a59-983d-d25664b46f5e | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:32:08.745531+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | 最终节点，报告生成完成
+2026-04-20T15:32:08.753614+0800 | INFO | 6d848b38-c02c-4a59-983d-d25664b46f5e | 分析完成
+2026-04-20T15:36:51.788349+0800 | INFO | N/A | Redis connected
+2026-04-20T15:36:51.896732+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:38:11.757124+0800 | INFO | 91193a8a-aa15-494c-9fbf-aa9612a26b6f | 开始分析: 小米手环9
+2026-04-20T15:38:11.783410+0800 | INFO | 91193a8a-aa15-494c-9fbf-aa9612a26b6f | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:42:32.625467+0800 | INFO | N/A | Redis connected
+2026-04-20T15:42:32.716907+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:42:45.953626+0800 | INFO | a0cad340-a804-4b8b-9af8-292e63b4dc4b | 开始分析: 小米手环9
+2026-04-20T15:42:45.982235+0800 | INFO | a0cad340-a804-4b8b-9af8-292e63b4dc4b | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:47:16.505718+0800 | INFO | N/A | Redis connected
+2026-04-20T15:47:16.569174+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:47:23.112464+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | 开始分析: 小米手环9
+2026-04-20T15:47:23.136286+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:47:35.413809+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | [LangGraph] 分析节点
+2026-04-20T15:47:49.540906+0800 | ERROR | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:47:49.542928+0800 | WARNING | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | 质量不达标，重试 (1/2)
+2026-04-20T15:47:49.542928+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | [LangGraph] 分析节点
+2026-04-20T15:48:01.499151+0800 | ERROR | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:48:01.499151+0800 | WARNING | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | 质量不达标，重试 (2/2)
+2026-04-20T15:48:01.499151+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | [LangGraph] 分析节点
+2026-04-20T15:48:09.271024+0800 | ERROR | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | JSON解析失败: 7 validation errors for ReportOutput
+product_name
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+features
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+price
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+pros
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+cons
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+competitors
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+summary
+  Field required [type=missing, input_value={'properties': {'product_...tput', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing, 原始: {
+  "properties": {
+    "product_name": {
+      "description": "产品名称",
+      "title": "Product Name",
+      "type": "string"
+    },
+    "features": {
+      "description": "核心功能列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Features",
+      "type": "array"
+    },
+    "price": {
+      "description": "价格信息",
+      "title": "Price",
+      "type": "string"
+    },
+    "pros": {
+      "description": "优点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pros",
+      "type": "array"
+    },
+    "cons": {
+      "description": "缺点列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cons",
+      "type": "array"
+    },
+    "competitors": {
+      "description": "主要竞品列表",
+      "items": {
+        "type": "string"
+      },
+      "title": "Competitors",
+      "type": "array"
+    },
+    "summary": {
+      "description": "购买建议总结",
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_name",
+    "features",
+    "price",
+    "pros",
+    "cons",
+    "competitors",
+    "summary"
+  ],
+  "title": "ReportOutput",
+  "type": "object"
+}
+2026-04-20T15:48:09.284173+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | 最终节点，报告生成完成
+2026-04-20T15:48:09.290802+0800 | INFO | fb839518-1ff9-4e0a-9b15-e0f94e30d6eb | 分析完成
+2026-04-20T15:57:40.902776+0800 | INFO | N/A | Redis connected
+2026-04-20T15:57:41.013902+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T15:57:48.514869+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | 开始分析: 小米手环9
+2026-04-20T15:57:48.541550+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | [LangGraph] 搜索节点: 小米手环9
+2026-04-20T15:57:57.521178+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | [LangGraph] 分析节点
+2026-04-20T15:58:07.115456+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | 成功使用 output_pydantic 获取结构化报告
+2026-04-20T15:58:07.115456+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | 最终节点，报告生成完成
+2026-04-20T15:58:07.119773+0800 | INFO | bbbf3327-b536-4afe-8e7a-ec31e068d4f8 | 分析完成
+2026-04-20T16:03:32.641762+0800 | INFO | N/A | Redis connected
+2026-04-20T16:03:32.761697+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T16:07:09.981764+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | 开始分析: 荣耀30pro
+2026-04-20T16:07:10.003661+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | [LangGraph] 搜索节点: 荣耀30pro
+2026-04-20T16:07:22.563988+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | [LangGraph] 分析节点
+2026-04-20T16:07:33.780407+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | 成功使用 output_pydantic 获取结构化报告
+2026-04-20T16:07:33.786310+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | 最终节点，报告生成完成
+2026-04-20T16:07:33.788855+0800 | INFO | 6de1be99-518d-48e0-99b7-6c9f17656f9a | 分析完成
+2026-04-20T16:24:36.880469+0800 | INFO | N/A | Redis connected
+2026-04-20T16:24:36.955454+0800 | INFO | N/A | Main event loop captured for WebSocket notifications
+2026-04-20T16:25:21.909528+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | 开始分析: 荣耀30pro
+2026-04-20T16:25:21.932169+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | [LangGraph] 搜索节点: 荣耀30pro
+2026-04-20T16:25:37.375398+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | [LangGraph] 分析节点
+2026-04-20T16:26:01.459546+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | 成功使用 output_pydantic 获取结构化报告
+2026-04-20T16:26:01.462445+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | 最终节点，报告生成完成
+2026-04-20T16:26:01.463463+0800 | INFO | 23e82d9d-4d32-424a-bf58-0b3714f6abcd | 分析完成

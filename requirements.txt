@@ -1,0 +1,10 @@
+crewai[tools]
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+loguru
+langgraph
+litellm
+redis
+ddgs
